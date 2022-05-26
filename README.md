@@ -13,7 +13,7 @@ This is a CMS-style blog site similar to a Wordpress site, where developers can 
 * connect-session-sequelize
 
 ## Screenshot
-![Screenshot]()
+![Screenshot](https://github.com/palakdevgan/mvc-tech-blog/blob/main/public/images/screenshot.png?raw=true)
 
 ## Website
 
