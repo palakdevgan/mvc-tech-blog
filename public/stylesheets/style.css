@@ -186,6 +186,12 @@ p {
   transition: color .1s;
 }
 
+.navitems1 {
+  text-decoration: none;
+  color: var(--dark);
+  transition: color .1s;
+}
+
 .navitems:hover {
   color: var(--secondary);
 } 
@@ -236,7 +242,8 @@ p {
   margin: 0 0 0 5px;
 }
 
-.form-input {
+.form-input,
+.form-textarea {
   width: 100%;
   padding: 1%;
   margin: 10px 0;

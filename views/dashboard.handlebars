@@ -3,14 +3,15 @@
 <section>
     {{#each posts as |post|}}
     <div id="user-posts" class="list-group">
-        <a class="list-item flex-row justify-space-between align-center" href="">
+        <a class="list-item flex-row justify-space-between align-center" href="/dashboard/edit/{{post.id}}">
             {{title}} {{format_date created_at}}
         </a>
     </div>
     {{/each}}
 </section>
 {{/if}}
- <a href="./new-post.handlebars" class="navitems">
- <button id="new-post" class="btn">New Post</button>
+</div>
+ <a href="/dashboard/new" class="navitems">
+ <button id="new-post" class="btn flex-row justify-space-between align-center"><i class="fa-solid fa-plus"></i>New Post</button>
  </a>
- </div>
+
