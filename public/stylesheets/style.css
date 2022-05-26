@@ -75,6 +75,25 @@ p {
   transform: translate(-1px, -1px);
 }
 
+.btn1 {
+  font-size: 1.3rem;
+  text-decoration:none;
+  padding: 6px 5px;
+  display: block;
+  margin: 5px 0;
+  border-radius: var(--border-radius);
+  color: var(--primary);
+  border: none;
+  outline: none;
+  background-color: var(--light-dark);
+  box-shadow: 3px 3px var(--dark);
+  transform: translate(-1px, -1px);
+}
+
+.mx{
+  margin-left:auto;
+  margin-right: auto;
+}
  .btn:hover {
   color: var(--primary);
   background-color: var(--tertiary);
@@ -211,6 +230,9 @@ p {
   border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
 }
 
+#comment-header{
+  height:40px;
+}
 .card-body {
     padding: 0.5%;  
 }
@@ -250,6 +272,7 @@ p {
   font-size: 1.2rem;
   border: 2px solid var(--light-dark);
   border-radius: var(--border-radius);
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 /* HEIGHT / WIDTH UTILS */

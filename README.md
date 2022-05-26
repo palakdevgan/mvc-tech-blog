@@ -16,7 +16,7 @@ This is a CMS-style blog site similar to a Wordpress site, where developers can 
 ![Screenshot](https://github.com/palakdevgan/mvc-tech-blog/blob/main/public/images/screenshot.png?raw=true)
 
 ## Website
-
+https://guarded-beyond-33669.herokuapp.com/
 
 ## Contribution
 Made with ❤️ by Palak Devgan

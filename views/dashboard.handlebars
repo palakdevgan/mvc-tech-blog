@@ -1,17 +1,21 @@
 <div class="col-12">
-{{#if posts.length}}
-<section>
-    {{#each posts as |post|}}
-    <div id="user-posts" class="list-group">
-        <a class="list-item flex-row justify-space-between align-center" href="/dashboard/edit/{{post.id}}">
-            {{title}} {{format_date created_at}}
-        </a>
-    </div>
-    {{/each}}
-</section>
-{{/if}}
+    {{#if posts.length}}
+    <section>
+        {{#each posts as |post|}}
+        <div id="user-posts" class="list-group">
+            <a class="list-item  flex-row justify-space-between" href="/dashboard/edit/{{post.id}}">
+                <div>{{title}}</div>
+                <div>{{format_date created_at}}</div>
+            </a>
+        </div>
+        {{/each}}
+    </section>
+    {{/if}}
 </div>
- <a href="/dashboard/new" class="navitems">
- <button id="new-post" class="btn flex-row justify-space-between align-center"><i class="fa-solid fa-plus"></i>New Post</button>
- </a>
-
+<div class="min-100-vw">
+    <a href="/dashboard/new" class="navitems">
+        <div class="flex-row justify-center mx">
+            <button id="new-post" class="btn1"><i class="fas fa-plus"></i>New Post</button>
+        </div>
+    </a>
+</div>
